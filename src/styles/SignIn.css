@@ -1,0 +1,32 @@
+.sign-in-btn {
+    border: none;
+    border-radius: 40px;
+    border: 2px solid #322c49;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: large;
+    padding: .5em 1em;
+    display: flex;
+    align-items: center;
+    transition: all 200ms ease-in;
+    background-color: #322c49;
+    color: white;
+}
+
+.sign-in-btn:hover,
+.sign-in-btn:focus {
+    background-color: #fbf8ff;
+    color: #322c49;
+    border: 2px solid #4e4feb;
+}
+
+.btn-contain {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.google-logo {
+    height: 35px;
+    margin-right: 5px;
+}

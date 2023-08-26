@@ -1,0 +1,67 @@
+.hrule {
+    border: 0;
+    height: 2px;
+    background-color: #958bb6;
+    margin: 2rem 0;
+}
+
+.room-hero {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #322c49;
+    line-height: 1.5;
+    margin: 2rem 0;
+}
+
+.room-hero>span {
+    background-color: #4e4feb;
+    color: white;
+    padding: 0 10px;
+}
+
+.create-join {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.join{
+    display: flex;
+    gap: 1rem;
+}
+
+@media(max-width:420px){
+    .join{
+        flex-direction: column;
+    }
+}
+
+.create>button,
+.join>button {
+    border-radius: 30px;
+    padding: .8rem 1rem;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
+.create>button {
+    background-color: #4e4feb;
+    color: white;
+}
+
+.join>button {
+    color: #fbf8ff;
+    background-color: #322c49;
+    margin-left: .5rem;
+}
+
+.create>button:hover,
+.create>button:focus,
+.join>button:hover,
+.join>button:focus {
+    opacity: .9;
+}

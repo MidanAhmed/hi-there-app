@@ -1,0 +1,27 @@
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.hero-img {
+    border-radius: 20px;
+    border: 3px solid #4e4feb;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.hero {
+    font-size: 30px;
+    font-weight: 600;
+    color: #322c49;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    user-select: none;
+}
+
+.hero>span {
+    color: #4e4feb;
+}
